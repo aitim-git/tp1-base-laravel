@@ -9,3 +9,6 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return 'À propos';
 });
+Route::prefix('v1')->group(function() {
+ // Routes existantes
+});
